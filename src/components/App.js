@@ -2,7 +2,7 @@ import React, { Component, useState } from "react";
 import "../styles/App.css";
 
 class App extends Component {
-  relatives = ["Arpit", "Utkers", "abdul"];
+  relatives = ["Arpit", "Utkers", "zbdul", "zzzz"];
 
   render() {
     // let relatives = ["Arpit", "Utkers", "abdul"];
