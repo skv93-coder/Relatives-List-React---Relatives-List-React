@@ -5,16 +5,14 @@ class App extends Component {
   // relatives = ["Arpit", "Btkers", "Cbdul", "Szzz", "Werd"];
 
   render() {
-    let relatives = ["Arpit", "Btkers", "Cbdul", "Szzz", "Werd"];
+    relatives = ["Arpit", "Btkers", "Cbdul", "Szzz", "Werd"];
 
     return (
-      <>
-        <ol key="relativeList">
-          {this.relatives.map((relative, index) => (
-            <li key={`relativeListItem${index + 1}`}>{relative}</li>
-          ))}
-        </ol>
-      </>
+      <ol key="relativeList">
+        {this.relatives.map((relative, index) => (
+          <li key={`relativeListItem${index + 1}`}>{relative}</li>
+        ))}
+      </ol>
     );
   }
 }
